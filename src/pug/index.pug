@@ -1,0 +1,84 @@
+//----------------------------------------------------
+//- Page: Index
+//----------------------------------------------------
+extends base/_layout.pug
+
+block vars
+  include base/_config.pug
+  - var key = "index"
+  - var page = pages[key]
+
+block contents
+
+  header.section.is-header.is-center
+    .inner
+      h1.heading.is-title #{page.title}
+      h2.text.is-dark-3 #{page.desc}
+      p.texts.is-dark-3.is-strong
+        | #{github.ver}
+      p.text.is-dark-3
+        i.fa.fa-github(aria-hidden="true")
+        a.text.is-link-reverse(href=github.url+"/"+github.id+"/"+github.repo)
+          span.text Repository
+        | &nbsp;/&nbsp;
+        a.text.is-link-reverse(href=github.url+"/"+github.id+"/"+github.repo+"/releases")
+          span.text Releases
+
+  main.section.is-main
+    .group
+      .grid.is-center
+        each val in color
+          .col.is-mobile-auto
+            .pallet(class="is-" + val.id ontouchstart="")
+              .bar.is-cut
+                h3.texts.is-color-name= val.name
+                .group.is-color-data
+                  .grid.is-between
+                    .col
+                      p.texts.is-shade 500
+                    .col
+                      p.texts.is-hex
+              case val.amount
+                when 14
+                  each num in ["50", "100", "200", "300", "400", "500", "600", "700", "800", "900", "A100", "A200", "A400", "A700"]
+                    .bar
+                      .group.is-color-data
+                        .grid.is-between
+                          .col
+                            p.texts.is-shade= num
+                          .col
+                            p.texts.is-hex
+                when 10
+                  each num in ["50", "100", "200", "300", "400", "500", "600", "700", "800", "900"]
+                    .bar
+                      .group.is-color-data
+                        .grid.is-between
+                          .col
+                            p.texts.is-shade= num
+                          .col
+                            p.texts.is-hex
+        .col.is-mobile-auto
+          .pallet.is-black-and-white
+            each bw in ["black", "white"]
+              .bar
+                .group.is-color-data
+                  .grid.is-between
+                    .col
+                      p.texts.is-shade= bw
+                    .col
+                      p.texts.is-hex
+
+  footer.section.is-footer
+    .inner
+      .group
+        .grid.is-center
+          .col
+            p.text.is-sm.is-dark-3
+              | License:&nbsp;&nbsp;
+              i.fa.fa-balance-scale(aria-hidden="true")
+              span.text #{github.license}
+          .col
+            p.text.is-sm.is-dark-3
+              | Author:&nbsp;&nbsp;
+              i.fa.fa-twitter(aria-hidden="true")
+              a.text.is-link-reverse(href=twitter.url+"/"+twitter.id target="_blank") Qrac
