@@ -1,18 +1,18 @@
 # iOSTONE
 
+## Demo
+
+- [Demo Page][link-demo]
+
 ## About
 
 iOSで使いそうな色をMaterial Designカラーパレット風に生成しました。
 
-＞ [Demo Page](https://qrac.github.io/iostone/)
-
-カラーバリュエーションはSass(SCSS)の色変数計算自動出力しています。[Demo Page](https://qrac.github.io/iostone/)では、出力された背景色を更にjQueryで取得、RGBを16進数に変換しつつテキストで出力しています。
-
-## How To Use
+## Use
 
 ### 色をWebデザインで使う場合
 
-[Demo Page](https://qrac.github.io/iostone/)に色コードを出力していますので、コピペください。
+[Demo Page][link-demo]に16進数の色コードを自動出力していますので、コピーしてお使いください。
 
 ### SCSSの変数として利用する場合
 
@@ -24,6 +24,8 @@ iOSで使いそうな色をMaterial Designカラーパレット風に生成し�
 
 ## License
 
-CC0 1.0 Public Domain
+- CC0 1.0 Public Domain
+- Author: [Qrac][link-twitter]
 
-Author: [Qrac](https://twitter.com/Qrac_jp)
+[link-demo]:https://qrac.github.io/iostone/
+[link-twitter]:https://twitter.com/Qrac_JP
