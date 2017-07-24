@@ -8,6 +8,11 @@
   background-color: #fafafa;
 }
 
+.section.is-dist {
+  padding: 3.5em 0 6em;
+  background-color: #424242;
+}
+
 .section.is-footer {
   padding: 1em 0;
 }
@@ -1012,4 +1017,8 @@
   font-size: 48px;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
+}
+
+.table.is-transdark {
+  background-color: transparent;
 }
