@@ -11,18 +11,19 @@ block vars
 block contents
 
   header.section.is-header.is-center
-    .inner
+    .inner.is-space
       h1.heading.is-title #{page.title}
-      h2.texts.is-dark-3 #{page.desc}
-      p.text.is-dark-3.is-strong
-        | #{github.ver}
-      p.texts.is-dark-3
-        i.fab.fa-github(aria-hidden="true")
-        a.text.is-link-reverse(href=github.url+"/"+github.id+"/"+github.repo)
-          span.text Repository
-        | &nbsp;/&nbsp;
-        a.text.is-link-reverse(href=github.url+"/"+github.id+"/"+github.repo+"/releases")
-          span.text Releases
+      .box
+        h2.texts.is-dark-3 #{page.desc}
+        p.text.is-dark-3.is-strong
+          | #{github.ver}
+        p.texts.is-dark-3
+          i.fab.fa-github(aria-hidden="true")
+          a.text.is-link-reverse(href=github.url+"/"+github.id+"/"+github.repo)
+            span.text Repository
+          | &nbsp;/&nbsp;
+          a.text.is-link-reverse(href=github.url+"/"+github.id+"/"+github.repo+"/releases")
+            span.text Releases
       .btns.is-center.is-lg
         a.btn.is-outline.is-round(href="#download")
           i.fas.fa-paint-brush(aria-hidden="true")
@@ -74,7 +75,7 @@ block contents
                       p.texts.is-hex
 
   section.section.is-dist#download
-    .inner
+    .inner.is-space
       h2.heading.is-light.is-strong.is-center.is-title
         span.text.is-xs Download
       .group.is-scroll-x
@@ -109,6 +110,12 @@ block contents
                   a.btn.is-plain.is-success(href="dist/swatches-iostone.clr" download="swatches-iostone.clr")
                     i.fa.fa-download(aria-hidden="true")
                     span.text Download
+      h2.heading.is-light.is-strong.is-center.is-title
+        span.text.is-xs npm
+      p.texts.is-light.is-center SCSS or Stylus 変数ファイルのみをnpmでインストールできます。
+      pre.pre
+        code.code
+          | $ npm i -D iostone
 
   footer.section.is-footer
     .inner
