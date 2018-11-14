@@ -80,21 +80,21 @@
 }
 
 .palette-scss.is-red .bar:nth-child(12) {
-  background: #ff8a80;
+  background: #ffd3d1;
 }
 
 .palette-scss.is-red .bar:nth-child(13) {
-  background: #ff5252;
+  background: #ffb1ad;
   color: white;
 }
 
 .palette-scss.is-red .bar:nth-child(14) {
-  background: #ff1744;
+  background: #ff6e66;
   color: white;
 }
 
 .palette-scss.is-red .bar:nth-child(15) {
-  background: #d50000;
+  background: #f00c00;
   color: white;
 }
 
@@ -151,21 +151,21 @@
 }
 
 .palette-scss.is-pink .bar:nth-child(12) {
-  background: #ff80ab;
+  background: #ffd1da;
 }
 
 .palette-scss.is-pink .bar:nth-child(13) {
-  background: #ff4081;
+  background: #ffadbe;
   color: white;
 }
 
 .palette-scss.is-pink .bar:nth-child(14) {
-  background: #f50057;
+  background: #ff6685;
   color: white;
 }
 
 .palette-scss.is-pink .bar:nth-child(15) {
-  background: #c51162;
+  background: #f00030;
   color: white;
 }
 
@@ -222,21 +222,21 @@
 }
 
 .palette-scss.is-purple .bar:nth-child(12) {
-  background: #ea80fc;
+  background: #eec8fe;
 }
 
 .palette-scss.is-purple .bar:nth-child(13) {
-  background: #e040fb;
+  background: #e3a5fe;
   color: white;
 }
 
 .palette-scss.is-purple .bar:nth-child(14) {
-  background: #d500f9;
+  background: #cf63fd;
   color: white;
 }
 
 .palette-scss.is-purple .bar:nth-child(15) {
-  background: #aa00ff;
+  background: #9f03e2;
   color: white;
 }
 
@@ -293,21 +293,21 @@
 }
 
 .palette-scss.is-deep-purple .bar:nth-child(12) {
-  background: #b388ff;
+  background: #dcc2ff;
 }
 
 .palette-scss.is-deep-purple .bar:nth-child(13) {
-  background: #7c4dff;
+  background: #c89eff;
   color: white;
 }
 
 .palette-scss.is-deep-purple .bar:nth-child(14) {
-  background: #651fff;
+  background: #a057ff;
   color: white;
 }
 
 .palette-scss.is-deep-purple .bar:nth-child(15) {
-  background: #6200ea;
+  background: #6100e0;
   color: white;
 }
 
@@ -364,21 +364,21 @@
 }
 
 .palette-scss.is-indigo .bar:nth-child(12) {
-  background: #8c9eff;
+  background: #b6c5fc;
 }
 
 .palette-scss.is-indigo .bar:nth-child(13) {
-  background: #536dfe;
+  background: #94aafa;
   color: white;
 }
 
 .palette-scss.is-indigo .bar:nth-child(14) {
-  background: #3d5afe;
+  background: #5074f7;
   color: white;
 }
 
 .palette-scss.is-indigo .bar:nth-child(15) {
-  background: #304ffe;
+  background: #0933c8;
   color: white;
 }
 
@@ -434,21 +434,21 @@
 }
 
 .palette-scss.is-blue .bar:nth-child(12) {
-  background: #82b1ff;
+  background: #a3d0ff;
 }
 
 .palette-scss.is-blue .bar:nth-child(13) {
-  background: #448aff;
+  background: #80bdff;
   color: white;
 }
 
 .palette-scss.is-blue .bar:nth-child(14) {
-  background: #2979ff;
+  background: #3898ff;
   color: white;
 }
 
 .palette-scss.is-blue .bar:nth-child(15) {
-  background: #2962ff;
+  background: #005ec2;
   color: white;
 }
 
@@ -504,20 +504,20 @@
 }
 
 .palette-scss.is-light-blue .bar:nth-child(12) {
-  background: #80d8ff;
+  background: #9edbff;
 }
 
 .palette-scss.is-light-blue .bar:nth-child(13) {
-  background: #40c4ff;
+  background: #7aceff;
 }
 
 .palette-scss.is-light-blue .bar:nth-child(14) {
-  background: #00b0ff;
+  background: #33b4ff;
   color: white;
 }
 
 .palette-scss.is-light-blue .bar:nth-child(15) {
-  background: #0091ea;
+  background: #0078bd;
   color: white;
 }
 
@@ -573,19 +573,19 @@
 }
 
 .palette-scss.is-cyan .bar:nth-child(12) {
-  background: #84ffff;
+  background: #a1f1fc;
 }
 
 .palette-scss.is-cyan .bar:nth-child(13) {
-  background: #18ffff;
+  background: #7eecfb;
 }
 
 .palette-scss.is-cyan .bar:nth-child(14) {
-  background: #00e5ff;
+  background: #39e3f9;
 }
 
 .palette-scss.is-cyan .bar:nth-child(15) {
-  background: #00b8d4;
+  background: #06a2b7;
   color: white;
 }
 
@@ -642,19 +642,19 @@
 }
 
 .palette-scss.is-teal .bar:nth-child(12) {
-  background: #a7ffeb;
+  background: #94f5e8;
 }
 
 .palette-scss.is-teal .bar:nth-child(13) {
-  background: #64ffda;
+  background: #6ef2e0;
 }
 
 .palette-scss.is-teal .bar:nth-child(14) {
-  background: #1de9b6;
+  background: #2debd2;
 }
 
 .palette-scss.is-teal .bar:nth-child(15) {
-  background: #00bfa5;
+  background: #0e9583;
   color: white;
 }
 
@@ -710,19 +710,19 @@
 }
 
 .palette-scss.is-green .bar:nth-child(12) {
-  background: #b9f6ca;
+  background: #cbfbd3;
 }
 
 .palette-scss.is-green .bar:nth-child(13) {
-  background: #69f0ae;
+  background: #aaf8b7;
 }
 
 .palette-scss.is-green .bar:nth-child(14) {
-  background: #00e676;
+  background: #68f37f;
 }
 
 .palette-scss.is-green .bar:nth-child(15) {
-  background: #00c853;
+  background: #11d432;
   color: white;
 }
 
@@ -777,84 +777,84 @@
 }
 
 .palette-scss.is-light-green .bar:nth-child(12) {
-  background: #ccff90;
+  background: #d1fcb0;
 }
 
 .palette-scss.is-light-green .bar:nth-child(13) {
-  background: #b2ff59;
+  background: #bdfb8e;
 }
 
 .palette-scss.is-light-green .bar:nth-child(14) {
-  background: #76ff03;
+  background: #95f849;
 }
 
 .palette-scss.is-light-green .bar:nth-child(15) {
-  background: #64dd17;
+  background: #59c507;
   color: white;
 }
 
 .palette-scss.is-lime .bar:first-child {
-  background: #d0e22c;
+  background: #bee22c;
 }
 
 .palette-scss.is-lime .bar:nth-child(2) {
-  background: #f3f8c9;
+  background: #eef8c9;
 }
 
 .palette-scss.is-lime .bar:nth-child(3) {
-  background: #ecf3aa;
+  background: #e5f3aa;
 }
 
 .palette-scss.is-lime .bar:nth-child(4) {
-  background: #e5ef8a;
+  background: #dbef8a;
 }
 
 .palette-scss.is-lime .bar:nth-child(5) {
-  background: #deeb6b;
+  background: #d1eb6b;
 }
 
 .palette-scss.is-lime .bar:nth-child(6) {
-  background: #d7e74b;
+  background: #c8e74b;
 }
 
 .palette-scss.is-lime .bar:nth-child(7) {
-  background: #d0e22c;
+  background: #bee22c;
 }
 
 .palette-scss.is-lime .bar:nth-child(8) {
-  background: #b9ca1c;
+  background: #a7ca1c;
   color: white;
 }
 
 .palette-scss.is-lime .bar:nth-child(9) {
-  background: #98a617;
+  background: #89a617;
   color: white;
 }
 
 .palette-scss.is-lime .bar:nth-child(10) {
-  background: #778212;
+  background: #6c8212;
   color: white;
 }
 
 .palette-scss.is-lime .bar:nth-child(11) {
-  background: #565e0d;
+  background: #4e5e0d;
   color: white;
 }
 
 .palette-scss.is-lime .bar:nth-child(12) {
-  background: #f4ff81;
+  background: #effdb4;
 }
 
 .palette-scss.is-lime .bar:nth-child(13) {
-  background: #eeff41;
+  background: #e7fd91;
 }
 
 .palette-scss.is-lime .bar:nth-child(14) {
-  background: #c6ff00;
+  background: #d8fb4b;
 }
 
 .palette-scss.is-lime .bar:nth-child(15) {
-  background: #aeea00;
+  background: #a5cd04;
 }
 
 .palette-scss.is-yellow .bar:first-child {
@@ -903,19 +903,19 @@
 }
 
 .palette-scss.is-yellow .bar:nth-child(12) {
-  background: #ffff8d;
+  background: #fdf7c4;
 }
 
 .palette-scss.is-yellow .bar:nth-child(13) {
-  background: #ffff00;
+  background: #fcf3a1;
 }
 
 .palette-scss.is-yellow .bar:nth-child(14) {
-  background: #ffea00;
+  background: #f9e95d;
 }
 
 .palette-scss.is-yellow .bar:nth-child(15) {
-  background: #ffd600;
+  background: #d9c408;
 }
 
 .palette-scss.is-amber .bar:first-child {
@@ -966,19 +966,19 @@
 }
 
 .palette-scss.is-amber .bar:nth-child(12) {
-  background: #ffe57f;
+  background: #fce5b0;
 }
 
 .palette-scss.is-amber .bar:nth-child(13) {
-  background: #ffd740;
+  background: #fbdc93;
 }
 
 .palette-scss.is-amber .bar:nth-child(14) {
-  background: #ffc400;
+  background: #f8c449;
 }
 
 .palette-scss.is-amber .bar:nth-child(15) {
-  background: #ffab00;
+  background: #c58c07;
   color: white;
 }
 
@@ -1033,20 +1033,20 @@
 }
 
 .palette-scss.is-orange .bar:nth-child(12) {
-  background: #ffd180;
+  background: #ffd9a3;
 }
 
 .palette-scss.is-orange .bar:nth-child(13) {
-  background: #ffab40;
+  background: #ffca80;
 }
 
 .palette-scss.is-orange .bar:nth-child(14) {
-  background: #ff9100;
+  background: #ffac38;
   color: white;
 }
 
 .palette-scss.is-orange .bar:nth-child(15) {
-  background: #ff6d00;
+  background: #c27100;
   color: white;
 }
 
@@ -1102,21 +1102,21 @@
 }
 
 .palette-scss.is-deep-orange .bar:nth-child(12) {
-  background: #ff9e80;
+  background: #ffccbd;
 }
 
 .palette-scss.is-deep-orange .bar:nth-child(13) {
-  background: #ff6e40;
+  background: #ffb199;
   color: white;
 }
 
 .palette-scss.is-deep-orange .bar:nth-child(14) {
-  background: #ff3d00;
+  background: #ff7a52;
   color: white;
 }
 
 .palette-scss.is-deep-orange .bar:nth-child(15) {
-  background: #dd2c00;
+  background: #db3300;
   color: white;
 }
 
