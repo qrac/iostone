@@ -1,506 +1,215 @@
 //----------------------------------------------------
-// SCSS Variable: iOSTONE v3.0.0 CC0 by Qrac
+// iOSTONE CC0 by Qrac
 //----------------------------------------------------
 
-$multiplied-50-lighten: 35%;
-$multiplied-100-lighten: 28%;
-$multiplied-200-lighten: 21%;
-$multiplied-300-lighten: 14%;
-$multiplied-400-lighten: 7%;
-$multiplied-600-darken: 8%;
-$multiplied-700-darken: 16%;
-$multiplied-800-darken: 24%;
-$multiplied-900-darken: 32%;
+$red-50: hsl(2, 100%, 95%) !default;
+$red-100: hsl(3, 100%, 87%) !default;
+$red-200: hsl(3, 100%, 80%) !default;
+$red-300: hsl(3, 100%, 73%) !default;
+$red-400: hsl(3, 100%, 66%) !default;
+$red-500: hsl(3, 100%, 59%) !default;
+$red-600: hsl(3, 100%, 51%) !default;
+$red-700: hsl(3, 100%, 43%) !default;
+$red-800: hsl(3, 100%, 35%) !default;
+$red-900: hsl(3, 100%, 27%) !default;
 
-$multiplied-a-saturate: 30%;
-$multiplied-a100-lighten: 15%;
-$multiplied-a200-lighten: 5%;
-$multiplied-a400-darken: 5%;
-$multiplied-a700-darken: 15%;
+$pink-50: hsl(349, 100%, 94%) !default;
+$pink-100: hsl(349, 100%, 87%) !default;
+$pink-200: hsl(348, 100%, 80%) !default;
+$pink-300: hsl(348, 100%, 73%) !default;
+$pink-400: hsl(348, 100%, 66%) !default;
+$pink-500: hsl(348, 100%, 59%) !default;
+$pink-600: hsl(348, 100%, 51%) !default;
+$pink-700: hsl(348, 100%, 43%) !default;
+$pink-800: hsl(348, 100%, 35%) !default;
+$pink-900: hsl(349, 100%, 27%) !default;
 
-$ios-red: #ff3a30 !default;
-$red-50: lighten($ios-red, $multiplied-50-lighten) !default;
-$red-100: lighten($ios-red, $multiplied-100-lighten) !default;
-$red-200: lighten($ios-red, $multiplied-200-lighten) !default;
-$red-300: lighten($ios-red, $multiplied-300-lighten) !default;
-$red-400: lighten($ios-red, $multiplied-400-lighten) !default;
-$red-500: $ios-red !default;
-$red-600: darken($ios-red, $multiplied-600-darken) !default;
-$red-700: darken($ios-red, $multiplied-700-darken) !default;
-$red-800: darken($ios-red, $multiplied-800-darken) !default;
-$red-900: darken($ios-red, $multiplied-900-darken) !default;
-$red-a100: saturate(
-  lighten($ios-red, $multiplied-a100-lighten),
-  $multiplied-a-saturate
-) !default;
-$red-a200: saturate(
-  lighten($ios-red, $multiplied-a200-lighten),
-  $multiplied-a-saturate
-) !default;
-$red-a400: saturate(
-  darken($ios-red, $multiplied-a400-darken),
-  $multiplied-a-saturate
-) !default;
-$red-a700: saturate(
-  darken($ios-red, $multiplied-a700-darken),
-  $multiplied-a-saturate
-) !default;
+$purple-50: hsl(282, 79%, 93%) !default;
+$purple-100: hsl(282, 76%, 85%) !default;
+$purple-200: hsl(282, 76%, 78%) !default;
+$purple-300: hsl(282, 77%, 71%) !default;
+$purple-400: hsl(282, 77%, 65%) !default;
+$purple-500: hsl(282, 77%, 57%) !default;
+$purple-600: hsl(282, 77%, 49%) !default;
+$purple-700: hsl(282, 77%, 41%) !default;
+$purple-800: hsl(282, 77%, 34%) !default;
+$purple-900: hsl(281, 77%, 25%) !default;
 
-$ios-pink: #ff2c55 !default;
-$pink-50: lighten($ios-pink, $multiplied-50-lighten) !default;
-$pink-100: lighten($ios-pink, $multiplied-100-lighten) !default;
-$pink-200: lighten($ios-pink, $multiplied-200-lighten) !default;
-$pink-300: lighten($ios-pink, $multiplied-300-lighten) !default;
-$pink-400: lighten($ios-pink, $multiplied-400-lighten) !default;
-$pink-500: $ios-pink !default;
-$pink-600: darken($ios-pink, $multiplied-600-darken) !default;
-$pink-700: darken($ios-pink, $multiplied-700-darken) !default;
-$pink-800: darken($ios-pink, $multiplied-800-darken) !default;
-$pink-900: darken($ios-pink, $multiplied-900-darken) !default;
-$pink-a100: saturate(
-  lighten($ios-pink, $multiplied-a100-lighten),
-  $multiplied-a-saturate
-) !default;
-$pink-a200: saturate(
-  lighten($ios-pink, $multiplied-a200-lighten),
-  $multiplied-a-saturate
-) !default;
-$pink-a400: saturate(
-  darken($ios-pink, $multiplied-a400-darken),
-  $multiplied-a-saturate
-) !default;
-$pink-a700: saturate(
-  darken($ios-pink, $multiplied-a700-darken),
-  $multiplied-a-saturate
-) !default;
+$deep-purple-50: hsl(265, 100%, 91%) !default;
+$deep-purple-100: hsl(266, 100%, 84%) !default;
+$deep-purple-200: hsl(266, 100%, 77%) !default;
+$deep-purple-300: hsl(266, 100%, 70%) !default;
+$deep-purple-400: hsl(266, 100%, 63%) !default;
+$deep-purple-500: hsl(266, 100%, 56%) !default;
+$deep-purple-600: hsl(266, 100%, 48%) !default;
+$deep-purple-700: hsl(266, 100%, 40%) !default;
+$deep-purple-800: hsl(266, 100%, 32%) !default;
+$deep-purple-900: hsl(266, 100%, 24%) !default;
 
-$ios-purple: #b33fe6 !default;
-$purple-50: lighten($ios-purple, $multiplied-50-lighten) !default;
-$purple-100: lighten($ios-purple, $multiplied-100-lighten) !default;
-$purple-200: lighten($ios-purple, $multiplied-200-lighten) !default;
-$purple-300: lighten($ios-purple, $multiplied-300-lighten) !default;
-$purple-400: lighten($ios-purple, $multiplied-400-lighten) !default;
-$purple-500: $ios-purple !default;
-$purple-600: darken($ios-purple, $multiplied-600-darken) !default;
-$purple-700: darken($ios-purple, $multiplied-700-darken) !default;
-$purple-800: darken($ios-purple, $multiplied-800-darken) !default;
-$purple-900: darken($ios-purple, $multiplied-900-darken) !default;
-$purple-a100: saturate(
-  lighten($ios-purple, $multiplied-a100-lighten),
-  $multiplied-a-saturate
-) !default;
-$purple-a200: saturate(
-  lighten($ios-purple, $multiplied-a200-lighten),
-  $multiplied-a-saturate
-) !default;
-$purple-a400: saturate(
-  darken($ios-purple, $multiplied-a400-darken),
-  $multiplied-a-saturate
-) !default;
-$purple-a700: saturate(
-  darken($ios-purple, $multiplied-a700-darken),
-  $multiplied-a-saturate
-) !default;
+$indigo-50: hsl(229, 61%, 88%) !default;
+$indigo-100: hsl(228, 61%, 81%) !default;
+$indigo-200: hsl(227, 61%, 74%) !default;
+$indigo-300: hsl(227, 61%, 67%) !default;
+$indigo-400: hsl(227, 61%, 60%) !default;
+$indigo-500: hsl(227, 61%, 53%) !default;
+$indigo-600: hsl(227, 61%, 45%) !default;
+$indigo-700: hsl(227, 61%, 37%) !default;
+$indigo-800: hsl(227, 61%, 29%) !default;
+$indigo-900: hsl(227, 61%, 21%) !default;
 
-$ios-deep-purple: #801fff !default;
-$deep-purple-50: lighten($ios-deep-purple, $multiplied-50-lighten) !default;
-$deep-purple-100: lighten($ios-deep-purple, $multiplied-100-lighten) !default;
-$deep-purple-200: lighten($ios-deep-purple, $multiplied-200-lighten) !default;
-$deep-purple-300: lighten($ios-deep-purple, $multiplied-300-lighten) !default;
-$deep-purple-400: lighten($ios-deep-purple, $multiplied-400-lighten) !default;
-$deep-purple-500: $ios-deep-purple !default;
-$deep-purple-600: darken($ios-deep-purple, $multiplied-600-darken) !default;
-$deep-purple-700: darken($ios-deep-purple, $multiplied-700-darken) !default;
-$deep-purple-800: darken($ios-deep-purple, $multiplied-800-darken) !default;
-$deep-purple-900: darken($ios-deep-purple, $multiplied-900-darken) !default;
-$deep-purple-a100: saturate(
-  lighten($ios-deep-purple, $multiplied-a100-lighten),
-  $multiplied-a-saturate
-) !default;
-$deep-purple-a200: saturate(
-  lighten($ios-deep-purple, $multiplied-a200-lighten),
-  $multiplied-a-saturate
-) !default;
-$deep-purple-a400: saturate(
-  darken($ios-deep-purple, $multiplied-a400-darken),
-  $multiplied-a-saturate
-) !default;
-$deep-purple-a700: saturate(
-  darken($ios-deep-purple, $multiplied-a700-darken),
-  $multiplied-a-saturate
-) !default;
+$blue-50: hsl(212, 100%, 85%) !default;
+$blue-100: hsl(212, 100%, 78%) !default;
+$blue-200: hsl(211, 100%, 71%) !default;
+$blue-300: hsl(211, 100%, 64%) !default;
+$blue-400: hsl(211, 100%, 57%) !default;
+$blue-500: hsl(211, 100%, 50%) !default;
+$blue-600: hsl(211, 100%, 42%) !default;
+$blue-700: hsl(211, 100%, 34%) !default;
+$blue-800: hsl(212, 100%, 26%) !default;
+$blue-900: hsl(211, 100%, 18%) !default;
 
-$ios-indigo: #3e5dd0 !default;
-$indigo-50: lighten($ios-indigo, $multiplied-50-lighten) !default;
-$indigo-100: lighten($ios-indigo, $multiplied-100-lighten) !default;
-$indigo-200: lighten($ios-indigo, $multiplied-200-lighten) !default;
-$indigo-300: lighten($ios-indigo, $multiplied-300-lighten) !default;
-$indigo-400: lighten($ios-indigo, $multiplied-400-lighten) !default;
-$indigo-500: $ios-indigo !default;
-$indigo-600: darken($ios-indigo, $multiplied-600-darken) !default;
-$indigo-700: darken($ios-indigo, $multiplied-700-darken) !default;
-$indigo-800: darken($ios-indigo, $multiplied-800-darken) !default;
-$indigo-900: darken($ios-indigo, $multiplied-900-darken) !default;
-$indigo-a100: saturate(
-  lighten($ios-indigo, $multiplied-a100-lighten),
-  $multiplied-a-saturate
-) !default;
-$indigo-a200: saturate(
-  lighten($ios-indigo, $multiplied-a200-lighten),
-  $multiplied-a-saturate
-) !default;
-$indigo-a400: saturate(
-  darken($ios-indigo, $multiplied-a400-darken),
-  $multiplied-a-saturate
-) !default;
-$indigo-a700: saturate(
-  darken($ios-indigo, $multiplied-a700-darken),
-  $multiplied-a-saturate
-) !default;
+$light-blue-50: hsl(202, 100%, 85%) !default;
+$light-blue-100: hsl(202, 100%, 77%) !default;
+$light-blue-200: hsl(202, 100%, 70%) !default;
+$light-blue-300: hsl(202, 100%, 63%) !default;
+$light-blue-400: hsl(202, 100%, 56%) !default;
+$light-blue-500: hsl(202, 100%, 49%) !default;
+$light-blue-600: hsl(202, 100%, 41%) !default;
+$light-blue-700: hsl(202, 100%, 33%) !default;
+$light-blue-800: hsl(202, 100%, 25%) !default;
+$light-blue-900: hsl(202, 100%, 17%) !default;
 
-$ios-blue: #007aff !default;
-$blue-50: lighten($ios-blue, $multiplied-50-lighten) !default;
-$blue-100: lighten($ios-blue, $multiplied-100-lighten) !default;
-$blue-200: lighten($ios-blue, $multiplied-200-lighten) !default;
-$blue-300: lighten($ios-blue, $multiplied-300-lighten) !default;
-$blue-400: lighten($ios-blue, $multiplied-400-lighten) !default;
-$blue-500: $ios-blue !default;
-$blue-600: darken($ios-blue, $multiplied-600-darken) !default;
-$blue-700: darken($ios-blue, $multiplied-700-darken) !default;
-$blue-800: darken($ios-blue, $multiplied-800-darken) !default;
-$blue-900: darken($ios-blue, $multiplied-900-darken) !default;
-$blue-a100: saturate(
-  lighten($ios-blue, $multiplied-a100-lighten),
-  $multiplied-a-saturate
-) !default;
-$blue-a200: saturate(
-  lighten($ios-blue, $multiplied-a200-lighten),
-  $multiplied-a-saturate
-) !default;
-$blue-a400: saturate(
-  darken($ios-blue, $multiplied-a400-darken),
-  $multiplied-a-saturate
-) !default;
-$blue-a700: saturate(
-  darken($ios-blue, $multiplied-a700-darken),
-  $multiplied-a-saturate
-) !default;
+$cyan-50: hsl(187, 73%, 84%) !default;
+$cyan-100: hsl(187, 74%, 77%) !default;
+$cyan-200: hsl(187, 74%, 70%) !default;
+$cyan-300: hsl(187, 73%, 63%) !default;
+$cyan-400: hsl(187, 74%, 56%) !default;
+$cyan-500: hsl(187, 74%, 49%) !default;
+$cyan-600: hsl(187, 73%, 41%) !default;
+$cyan-700: hsl(187, 74%, 33%) !default;
+$cyan-800: hsl(188, 74%, 25%) !default;
+$cyan-900: hsl(187, 73%, 17%) !default;
 
-$ios-light-blue: #00a0fc !default;
-$light-blue-50: lighten($ios-light-blue, $multiplied-50-lighten) !default;
-$light-blue-100: lighten($ios-light-blue, $multiplied-100-lighten) !default;
-$light-blue-200: lighten($ios-light-blue, $multiplied-200-lighten) !default;
-$light-blue-300: lighten($ios-light-blue, $multiplied-300-lighten) !default;
-$light-blue-400: lighten($ios-light-blue, $multiplied-400-lighten) !default;
-$light-blue-500: $ios-light-blue !default;
-$light-blue-600: darken($ios-light-blue, $multiplied-600-darken) !default;
-$light-blue-700: darken($ios-light-blue, $multiplied-700-darken) !default;
-$light-blue-800: darken($ios-light-blue, $multiplied-800-darken) !default;
-$light-blue-900: darken($ios-light-blue, $multiplied-900-darken) !default;
-$light-blue-a100: saturate(
-  lighten($ios-light-blue, $multiplied-a100-lighten),
-  $multiplied-a-saturate
-) !default;
-$light-blue-a200: saturate(
-  lighten($ios-light-blue, $multiplied-a200-lighten),
-  $multiplied-a-saturate
-) !default;
-$light-blue-a400: saturate(
-  darken($ios-light-blue, $multiplied-a400-darken),
-  $multiplied-a-saturate
-) !default;
-$light-blue-a700: saturate(
-  darken($ios-light-blue, $multiplied-a700-darken),
-  $multiplied-a-saturate
-) !default;
+$teal-50: hsl(171, 63%, 80%) !default;
+$teal-100: hsl(172, 63%, 73%) !default;
+$teal-200: hsl(172, 63%, 65%) !default;
+$teal-300: hsl(171, 63%, 59%) !default;
+$teal-400: hsl(172, 63%, 51%) !default;
+$teal-500: hsl(172, 63%, 45%) !default;
+$teal-600: hsl(171, 63%, 36%) !default;
+$teal-700: hsl(172, 63%, 28%) !default;
+$teal-800: hsl(172, 63%, 20%) !default;
+$teal-900: hsl(171, 63%, 13%) !default;
 
-$ios-cyan: #21c4da !default;
-$cyan-50: lighten($ios-cyan, $multiplied-50-lighten) !default;
-$cyan-100: lighten($ios-cyan, $multiplied-100-lighten) !default;
-$cyan-200: lighten($ios-cyan, $multiplied-200-lighten) !default;
-$cyan-300: lighten($ios-cyan, $multiplied-300-lighten) !default;
-$cyan-400: lighten($ios-cyan, $multiplied-400-lighten) !default;
-$cyan-500: $ios-cyan !default;
-$cyan-600: darken($ios-cyan, $multiplied-600-darken) !default;
-$cyan-700: darken($ios-cyan, $multiplied-700-darken) !default;
-$cyan-800: darken($ios-cyan, $multiplied-800-darken) !default;
-$cyan-900: darken($ios-cyan, $multiplied-900-darken) !default;
-$cyan-a100: saturate(
-  lighten($ios-cyan, $multiplied-a100-lighten),
-  $multiplied-a-saturate
-) !default;
-$cyan-a200: saturate(
-  lighten($ios-cyan, $multiplied-a200-lighten),
-  $multiplied-a-saturate
-) !default;
-$cyan-a400: saturate(
-  darken($ios-cyan, $multiplied-a400-darken),
-  $multiplied-a-saturate
-) !default;
-$cyan-a700: saturate(
-  darken($ios-cyan, $multiplied-a700-darken),
-  $multiplied-a-saturate
-) !default;
+$green-50: hsl(130, 64%, 92%) !default;
+$green-100: hsl(130, 65%, 85%) !default;
+$green-200: hsl(130, 65%, 78%) !default;
+$green-300: hsl(129, 66%, 72%) !default;
+$green-400: hsl(130, 65%, 64%) !default;
+$green-500: hsl(130, 65%, 57%) !default;
+$green-600: hsl(130, 65%, 49%) !default;
+$green-700: hsl(130, 65%, 41%) !default;
+$green-800: hsl(130, 65%, 34%) !default;
+$green-900: hsl(129, 65%, 25%) !default;
 
-$ios-teal: #2ab9a5 !default;
-$teal-50: lighten($ios-teal, $multiplied-50-lighten) !default;
-$teal-100: lighten($ios-teal, $multiplied-100-lighten) !default;
-$teal-200: lighten($ios-teal, $multiplied-200-lighten) !default;
-$teal-300: lighten($ios-teal, $multiplied-300-lighten) !default;
-$teal-400: lighten($ios-teal, $multiplied-400-lighten) !default;
-$teal-500: $ios-teal !default;
-$teal-600: darken($ios-teal, $multiplied-600-darken) !default;
-$teal-700: darken($ios-teal, $multiplied-700-darken) !default;
-$teal-800: darken($ios-teal, $multiplied-800-darken) !default;
-$teal-900: darken($ios-teal, $multiplied-900-darken) !default;
-$teal-a100: saturate(
-  lighten($ios-teal, $multiplied-a100-lighten),
-  $multiplied-a-saturate
-) !default;
-$teal-a200: saturate(
-  lighten($ios-teal, $multiplied-a200-lighten),
-  $multiplied-a-saturate
-) !default;
-$teal-a400: saturate(
-  darken($ios-teal, $multiplied-a400-darken),
-  $multiplied-a-saturate
-) !default;
-$teal-a700: saturate(
-  darken($ios-teal, $multiplied-a700-darken),
-  $multiplied-a-saturate
-) !default;
+$light-green-50: hsl(94, 73%, 87%) !default;
+$light-green-100: hsl(94, 73%, 80%) !default;
+$light-green-200: hsl(94, 72%, 73%) !default;
+$light-green-300: hsl(94, 73%, 66%) !default;
+$light-green-400: hsl(94, 73%, 59%) !default;
+$light-green-500: hsl(94, 73%, 52%) !default;
+$light-green-600: hsl(94, 73%, 44%) !default;
+$light-green-700: hsl(94, 73%, 36%) !default;
+$light-green-800: hsl(94, 73%, 28%) !default;
+$light-green-900: hsl(94, 73%, 20%) !default;
 
-$ios-green: #4cd963 !default;
-$green-50: lighten($ios-green, $multiplied-50-lighten) !default;
-$green-100: lighten($ios-green, $multiplied-100-lighten) !default;
-$green-200: lighten($ios-green, $multiplied-200-lighten) !default;
-$green-300: lighten($ios-green, $multiplied-300-lighten) !default;
-$green-400: lighten($ios-green, $multiplied-400-lighten) !default;
-$green-500: $ios-green !default;
-$green-600: darken($ios-green, $multiplied-600-darken) !default;
-$green-700: darken($ios-green, $multiplied-700-darken) !default;
-$green-800: darken($ios-green, $multiplied-800-darken) !default;
-$green-900: darken($ios-green, $multiplied-900-darken) !default;
-$green-a100: saturate(
-  lighten($ios-green, $multiplied-a100-lighten),
-  $multiplied-a-saturate
-) !default;
-$green-a200: saturate(
-  lighten($ios-green, $multiplied-a200-lighten),
-  $multiplied-a-saturate
-) !default;
-$green-a400: saturate(
-  darken($ios-green, $multiplied-a400-darken),
-  $multiplied-a-saturate
-) !default;
-$green-a700: saturate(
-  darken($ios-green, $multiplied-a700-darken),
-  $multiplied-a-saturate
-) !default;
+$lime-50: hsl(65, 75%, 88%) !default;
+$lime-100: hsl(66, 76%, 81%) !default;
+$lime-200: hsl(66, 76%, 74%) !default;
+$lime-300: hsl(66, 76%, 67%) !default;
+$lime-400: hsl(65, 76%, 60%) !default;
+$lime-500: hsl(66, 76%, 53%) !default;
+$lime-600: hsl(66, 76%, 45%) !default;
+$lime-700: hsl(65, 76%, 37%) !default;
+$lime-800: hsl(65, 76%, 29%) !default;
+$lime-900: hsl(65, 75%, 21%) !default;
 
-$ios-light-green: #78de2b !default;
-$light-green-50: lighten($ios-light-green, $multiplied-50-lighten) !default;
-$light-green-100: lighten($ios-light-green, $multiplied-100-lighten) !default;
-$light-green-200: lighten($ios-light-green, $multiplied-200-lighten) !default;
-$light-green-300: lighten($ios-light-green, $multiplied-300-lighten) !default;
-$light-green-400: lighten($ios-light-green, $multiplied-400-lighten) !default;
-$light-green-500: $ios-light-green !default;
-$light-green-600: darken($ios-light-green, $multiplied-600-darken) !default;
-$light-green-700: darken($ios-light-green, $multiplied-700-darken) !default;
-$light-green-800: darken($ios-light-green, $multiplied-800-darken) !default;
-$light-green-900: darken($ios-light-green, $multiplied-900-darken) !default;
-$light-green-a100: saturate(
-  lighten($ios-light-green, $multiplied-a100-lighten),
-  $multiplied-a-saturate
-) !default;
-$light-green-a200: saturate(
-  lighten($ios-light-green, $multiplied-a200-lighten),
-  $multiplied-a-saturate
-) !default;
-$light-green-a400: saturate(
-  darken($ios-light-green, $multiplied-a400-darken),
-  $multiplied-a-saturate
-) !default;
-$light-green-a700: saturate(
-  darken($ios-light-green, $multiplied-a700-darken),
-  $multiplied-a-saturate
-) !default;
+$yellow-50: hsl(54, 91%, 91%) !default;
+$yellow-100: hsl(54, 93%, 84%) !default;
+$yellow-200: hsl(54, 93%, 77%) !default;
+$yellow-300: hsl(54, 93%, 70%) !default;
+$yellow-400: hsl(54, 93%, 63%) !default;
+$yellow-500: hsl(54, 93%, 56%) !default;
+$yellow-600: hsl(54, 93%, 48%) !default;
+$yellow-700: hsl(54, 93%, 40%) !default;
+$yellow-800: hsl(54, 93%, 32%) !default;
+$yellow-900: hsl(54, 93%, 24%) !default;
 
-$ios-lime: #d1e22b !default;
-$lime-50: lighten($ios-lime, $multiplied-50-lighten) !default;
-$lime-100: lighten($ios-lime, $multiplied-100-lighten) !default;
-$lime-200: lighten($ios-lime, $multiplied-200-lighten) !default;
-$lime-300: lighten($ios-lime, $multiplied-300-lighten) !default;
-$lime-400: lighten($ios-lime, $multiplied-400-lighten) !default;
-$lime-500: $ios-lime !default;
-$lime-600: darken($ios-lime, $multiplied-600-darken) !default;
-$lime-700: darken($ios-lime, $multiplied-700-darken) !default;
-$lime-800: darken($ios-lime, $multiplied-800-darken) !default;
-$lime-900: darken($ios-lime, $multiplied-900-darken) !default;
-$lime-a100: saturate(
-  lighten($ios-lime, $multiplied-a100-lighten),
-  $multiplied-a-saturate
-) !default;
-$lime-a200: saturate(
-  lighten($ios-lime, $multiplied-a200-lighten),
-  $multiplied-a-saturate
-) !default;
-$lime-a400: saturate(
-  darken($ios-lime, $multiplied-a400-darken),
-  $multiplied-a-saturate
-) !default;
-$lime-a700: saturate(
-  darken($ios-lime, $multiplied-a700-darken),
-  $multiplied-a-saturate
-) !default;
+$amber-50: hsl(42, 94%, 87%) !default;
+$amber-100: hsl(42, 94%, 80%) !default;
+$amber-200: hsl(42, 94%, 74%) !default;
+$amber-300: hsl(42, 93%, 66%) !default;
+$amber-400: hsl(42, 93%, 59%) !default;
+$amber-500: hsl(42, 93%, 52%) !default;
+$amber-600: hsl(42, 94%, 44%) !default;
+$amber-700: hsl(42, 94%, 36%) !default;
+$amber-800: hsl(42, 93%, 28%) !default;
+$amber-900: hsl(42, 94%, 20%) !default;
 
-$ios-yellow: #f7e227 !default;
-$yellow-50: lighten($ios-yellow, $multiplied-50-lighten) !default;
-$yellow-100: lighten($ios-yellow, $multiplied-100-lighten) !default;
-$yellow-200: lighten($ios-yellow, $multiplied-200-lighten) !default;
-$yellow-300: lighten($ios-yellow, $multiplied-300-lighten) !default;
-$yellow-400: lighten($ios-yellow, $multiplied-400-lighten) !default;
-$yellow-500: $ios-yellow !default;
-$yellow-600: darken($ios-yellow, $multiplied-600-darken) !default;
-$yellow-700: darken($ios-yellow, $multiplied-700-darken) !default;
-$yellow-800: darken($ios-yellow, $multiplied-800-darken) !default;
-$yellow-900: darken($ios-yellow, $multiplied-900-darken) !default;
-$yellow-a100: saturate(
-  lighten($ios-yellow, $multiplied-a100-lighten),
-  $multiplied-a-saturate
-) !default;
-$yellow-a200: saturate(
-  lighten($ios-yellow, $multiplied-a200-lighten),
-  $multiplied-a-saturate
-) !default;
-$yellow-a400: saturate(
-  darken($ios-yellow, $multiplied-a400-darken),
-  $multiplied-a-saturate
-) !default;
-$yellow-a700: saturate(
-  darken($ios-yellow, $multiplied-a700-darken),
-  $multiplied-a-saturate
-) !default;
+$orange-50: hsl(35, 100%, 85%) !default;
+$orange-100: hsl(35, 100%, 78%) !default;
+$orange-200: hsl(35, 100%, 71%) !default;
+$orange-300: hsl(35, 100%, 64%) !default;
+$orange-400: hsl(35, 100%, 57%) !default;
+$orange-500: hsl(35, 100%, 50%) !default;
+$orange-600: hsl(35, 100%, 42%) !default;
+$orange-700: hsl(35, 100%, 34%) !default;
+$orange-800: hsl(35, 100%, 26%) !default;
+$orange-900: hsl(35, 100%, 18%) !default;
 
-$ios-amber: #f7b314 !default;
-$amber-50: lighten($ios-amber, $multiplied-50-lighten) !default;
-$amber-100: lighten($ios-amber, $multiplied-100-lighten) !default;
-$amber-200: lighten($ios-amber, $multiplied-200-lighten) !default;
-$amber-300: lighten($ios-amber, $multiplied-300-lighten) !default;
-$amber-400: lighten($ios-amber, $multiplied-400-lighten) !default;
-$amber-500: $ios-amber !default;
-$amber-600: darken($ios-amber, $multiplied-600-darken) !default;
-$amber-700: darken($ios-amber, $multiplied-700-darken) !default;
-$amber-800: darken($ios-amber, $multiplied-800-darken) !default;
-$amber-900: darken($ios-amber, $multiplied-900-darken) !default;
-$amber-a100: saturate(
-  lighten($ios-amber, $multiplied-a100-lighten),
-  $multiplied-a-saturate
-) !default;
-$amber-a200: saturate(
-  lighten($ios-amber, $multiplied-a200-lighten),
-  $multiplied-a-saturate
-) !default;
-$amber-a400: saturate(
-  darken($ios-amber, $multiplied-a400-darken),
-  $multiplied-a-saturate
-) !default;
-$amber-a700: saturate(
-  darken($ios-amber, $multiplied-a700-darken),
-  $multiplied-a-saturate
-) !default;
+$deep-orange-50: hsl(14, 100%, 90%) !default;
+$deep-orange-100: hsl(15, 100%, 83%) !default;
+$deep-orange-200: hsl(14, 100%, 76%) !default;
+$deep-orange-300: hsl(14, 100%, 69%) !default;
+$deep-orange-400: hsl(14, 100%, 62%) !default;
+$deep-orange-500: hsl(14, 100%, 55%) !default;
+$deep-orange-600: hsl(15, 100%, 47%) !default;
+$deep-orange-700: hsl(14, 100%, 39%) !default;
+$deep-orange-800: hsl(14, 100%, 31%) !default;
+$deep-orange-900: hsl(14, 100%, 23%) !default;
 
-$ios-orange: #ff9500 !default;
-$orange-50: lighten($ios-orange, $multiplied-50-lighten) !default;
-$orange-100: lighten($ios-orange, $multiplied-100-lighten) !default;
-$orange-200: lighten($ios-orange, $multiplied-200-lighten) !default;
-$orange-300: lighten($ios-orange, $multiplied-300-lighten) !default;
-$orange-400: lighten($ios-orange, $multiplied-400-lighten) !default;
-$orange-500: $ios-orange !default;
-$orange-600: darken($ios-orange, $multiplied-600-darken) !default;
-$orange-700: darken($ios-orange, $multiplied-700-darken) !default;
-$orange-800: darken($ios-orange, $multiplied-800-darken) !default;
-$orange-900: darken($ios-orange, $multiplied-900-darken) !default;
-$orange-a100: saturate(
-  lighten($ios-orange, $multiplied-a100-lighten),
-  $multiplied-a-saturate
-) !default;
-$orange-a200: saturate(
-  lighten($ios-orange, $multiplied-a200-lighten),
-  $multiplied-a-saturate
-) !default;
-$orange-a400: saturate(
-  darken($ios-orange, $multiplied-a400-darken),
-  $multiplied-a-saturate
-) !default;
-$orange-a700: saturate(
-  darken($ios-orange, $multiplied-a700-darken),
-  $multiplied-a-saturate
-) !default;
+$brown-50: hsl(16, 35%, 89%) !default;
+$brown-100: hsl(15, 34%, 82%) !default;
+$brown-200: hsl(15, 34%, 75%) !default;
+$brown-300: hsl(14, 33%, 68%) !default;
+$brown-400: hsl(15, 33%, 61%) !default;
+$brown-500: hsl(15, 33%, 54%) !default;
+$brown-600: hsl(16, 34%, 46%) !default;
+$brown-700: hsl(15, 33%, 38%) !default;
+$brown-800: hsl(15, 33%, 30%) !default;
+$brown-900: hsl(15, 33%, 22%) !default;
 
-$ios-deep-orange: #ff511a !default;
-$deep-orange-50: lighten($ios-deep-orange, $multiplied-50-lighten) !default;
-$deep-orange-100: lighten($ios-deep-orange, $multiplied-100-lighten) !default;
-$deep-orange-200: lighten($ios-deep-orange, $multiplied-200-lighten) !default;
-$deep-orange-300: lighten($ios-deep-orange, $multiplied-300-lighten) !default;
-$deep-orange-400: lighten($ios-deep-orange, $multiplied-400-lighten) !default;
-$deep-orange-500: $ios-deep-orange !default;
-$deep-orange-600: darken($ios-deep-orange, $multiplied-600-darken) !default;
-$deep-orange-700: darken($ios-deep-orange, $multiplied-700-darken) !default;
-$deep-orange-800: darken($ios-deep-orange, $multiplied-800-darken) !default;
-$deep-orange-900: darken($ios-deep-orange, $multiplied-900-darken) !default;
-$deep-orange-a100: saturate(
-  lighten($ios-deep-orange, $multiplied-a100-lighten),
-  $multiplied-a-saturate
-) !default;
-$deep-orange-a200: saturate(
-  lighten($ios-deep-orange, $multiplied-a200-lighten),
-  $multiplied-a-saturate
-) !default;
-$deep-orange-a400: saturate(
-  darken($ios-deep-orange, $multiplied-a400-darken),
-  $multiplied-a-saturate
-) !default;
-$deep-orange-a700: saturate(
-  darken($ios-deep-orange, $multiplied-a700-darken),
-  $multiplied-a-saturate
-) !default;
+$grey-50: hsl(0, 0%, 97%) !default;
+$grey-100: hsl(0, 0%, 90%) !default;
+$grey-200: hsl(0, 0%, 83%) !default;
+$grey-300: hsl(0, 0%, 76%) !default;
+$grey-400: hsl(0, 0%, 69%) !default;
+$grey-500: hsl(0, 0%, 62%) !default;
+$grey-600: hsl(0, 0%, 50%) !default;
+$grey-700: hsl(0, 0%, 38%) !default;
+$grey-800: hsl(0, 0%, 26%) !default;
+$grey-900: hsl(0, 0%, 14%) !default;
 
-$ios-brown: #b17763 !default;
-$brown-50: lighten($ios-brown, $multiplied-50-lighten) !default;
-$brown-100: lighten($ios-brown, $multiplied-100-lighten) !default;
-$brown-200: lighten($ios-brown, $multiplied-200-lighten) !default;
-$brown-300: lighten($ios-brown, $multiplied-300-lighten) !default;
-$brown-400: lighten($ios-brown, $multiplied-400-lighten) !default;
-$brown-500: $ios-brown !default;
-$brown-600: darken($ios-brown, $multiplied-600-darken) !default;
-$brown-700: darken($ios-brown, $multiplied-700-darken) !default;
-$brown-800: darken($ios-brown, $multiplied-800-darken) !default;
-$brown-900: darken($ios-brown, $multiplied-900-darken) !default;
+$blue-grey-50: hsl(198, 25%, 90%) !default;
+$blue-grey-100: hsl(199, 25%, 83%) !default;
+$blue-grey-200: hsl(201, 26%, 76%) !default;
+$blue-grey-300: hsl(200, 26%, 69%) !default;
+$blue-grey-400: hsl(200, 26%, 62%) !default;
+$blue-grey-500: hsl(200, 26%, 55%) !default;
+$blue-grey-600: hsl(201, 26%, 47%) !default;
+$blue-grey-700: hsl(200, 26%, 39%) !default;
+$blue-grey-800: hsl(200, 26%, 31%) !default;
+$blue-grey-900: hsl(200, 26%, 23%) !default;
 
-$ios-grey: #9e9e9e !default;
-$grey-50: lighten($ios-grey, $multiplied-50-lighten) !default;
-$grey-100: lighten($ios-grey, $multiplied-100-lighten) !default;
-$grey-200: lighten($ios-grey, $multiplied-200-lighten) !default;
-$grey-300: lighten($ios-grey, $multiplied-300-lighten) !default;
-$grey-400: lighten($ios-grey, $multiplied-400-lighten) !default;
-$grey-500: $ios-grey !default;
-$grey-600: darken($ios-grey, $multiplied-600-darken * 1.5) !default;
-$grey-700: darken($ios-grey, $multiplied-700-darken * 1.5) !default;
-$grey-800: darken($ios-grey, $multiplied-800-darken * 1.5) !default;
-$grey-900: darken($ios-grey, $multiplied-900-darken * 1.5) !default;
-
-$ios-blue-grey: #6e95a9 !default;
-$blue-grey-50: lighten($ios-blue-grey, $multiplied-50-lighten) !default;
-$blue-grey-100: lighten($ios-blue-grey, $multiplied-100-lighten) !default;
-$blue-grey-200: lighten($ios-blue-grey, $multiplied-200-lighten) !default;
-$blue-grey-300: lighten($ios-blue-grey, $multiplied-300-lighten) !default;
-$blue-grey-400: lighten($ios-blue-grey, $multiplied-400-lighten) !default;
-$blue-grey-500: $ios-blue-grey !default;
-$blue-grey-600: darken($ios-blue-grey, $multiplied-600-darken) !default;
-$blue-grey-700: darken($ios-blue-grey, $multiplied-700-darken) !default;
-$blue-grey-800: darken($ios-blue-grey, $multiplied-800-darken) !default;
-$blue-grey-900: darken($ios-blue-grey, $multiplied-900-darken) !default;
-
-$black: #000000 !default;
-$white: #ffffff !default;
+$black: hsl(0, 0%, 0%) !default;
+$white: hsl(0, 0%, 100%) !default;

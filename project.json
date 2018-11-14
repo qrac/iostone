@@ -1,0 +1,9 @@
+{
+  "setting": {
+    "name": "iOSTONE",
+    "dist": "dist",
+    "lib": "lib",
+    "src": "src",
+    "banner": true
+  }
+}
