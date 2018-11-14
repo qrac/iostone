@@ -1,10 +1,10 @@
 {
   "name": "iostone",
   "description": "iOS Design Variable of SCSS & Stylus",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "main": "src/scss/tone/_iostone.scss",
   "license": "CC0-1.0",
-  "homepage": "https://github.com/qrac/iostone",
+  "homepage": "https://mixtone.qranoko.jp/iostone",
   "repository": "https://github.com/qrac/iostone",
   "bugs": "https://github.com/qrac/iostone/issues",
   "keywords": [

@@ -2,7 +2,7 @@
 
 ## Site
 
-- https://qrac.github.io/iostone/
+- https://mixtone.qranoko.jp/iostone/
 
 ## About
 
